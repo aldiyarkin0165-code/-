@@ -1,0 +1,112 @@
+body {
+    background-color: aqua;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    color: darkblue;
+    font-size: 32px;
+    text-transform: uppercase;
+}
+
+p {
+    background-color: rgb(220, 146, 7);
+    color: red;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+span {
+    background-color: rgb(0, 0, 0);
+    color: green;
+    font-size: 20px;
+    font-style: italic;
+}
+
+img {
+    display: flex;
+    margin: 20px auto;
+    border-radius: 10px;
+}
+
+button {
+    display: flex;
+    margin: 0 auto;
+    width: 100px;
+    background-color: darkblue;
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    font-size: 18px;
+    border-radius: 8px;
+    cursor: pointer;
+    
+}
+
+button:hover {
+    background-color: rgb(255, 0, 191);
+}
+
+.card {
+    background-color: rgb(220, 146, 7);
+    color: white;
+    padding: 20px;
+    margin: 20px auto;
+    width: 300px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.card h2 {
+    color: black;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+ 
+th {background-color: rgb(0, 0, 0);
+    color: white;
+    padding: 10px;
+    border: 1px solid black;
+}
+td {
+    padding: 10px;
+    border: 1px solid black;
+}
+
+tr:nth-child(even) {
+    background-color: rgb(220, 146, 7);
+}
+
+tr:hover {
+    background-color: rgb(255, 0, 191);
+}
+
+ul {
+    list-style-type: none;
+    padding-left: 0;
+
+}
+
+li {
+    background-color: rgb(0, 0, 0);
+    color: white;
+    padding: 10px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+
+li:hover {
+    background-color: rgb(255, 0, 191);
+    transform: translateX(10px);
+}
